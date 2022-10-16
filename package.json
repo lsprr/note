@@ -1,0 +1,23 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "description": "📝 A simple and free note taking web app",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsprr/note.git"
+  },
+  "author": "lsprr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lsprr/note/issues"
+  },
+  "homepage": "https://github.com/lsprr/note#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}

@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  font: 18px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  min-height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+.button {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.export {
+  background-color: #007bff;
+  right: 114px;
+}
+
+.delete {
+  background-color: #dc3545;
+}
+
+.top {
+  background-color: #343a40;
+  display: none;
+}
+
+.export:hover {
+  background-color: #0069d9;
+}
+
+.delete:hover {
+  background-color: #c82333;
+}
+
+.top:hover {
+  background-color: #23272b;
+}
+
+[contenteditable] {
+  box-sizing: border-box;
+  min-height: 95vh;
+  padding: 2rem;
+  width: 100%;
+}
+
+[contenteditable]:focus {
+  outline: 0 solid transparent;
+}
+
+[contenteditable]:empty:before {
+  align-items: center;
+  color: rgba(0, 0, 0, 0.33);
+  content: 'Click and start taking notes';
+  display: flex;
+  font-size: 1.5rem;
+  height: 100%;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
