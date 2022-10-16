@@ -25,7 +25,8 @@ function scroll() {
 
 function strip(html) {
     html = html.replace(/<(.|\n)*?>/g, '<br>');
-    html = html.replace(/(?:<br>){2,}/g, '%0D%0A')
+    html = html.replace(/(<br>*)+/g, "<br/>");
+    html = html.replace(/(<br\/>*)+/g, '%0D%0A')
     return html;
 }
 
