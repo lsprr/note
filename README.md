@@ -26,7 +26,7 @@
 
 ### Demo
 
-Coming Soon!
+[Live Demo](https://velvety-madeleine-09a443.netlify.app/)
 
 ![Demo](demo/note.gif)
 
